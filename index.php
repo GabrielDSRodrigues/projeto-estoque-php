@@ -14,7 +14,7 @@
 
     <body>
 
-        <nav clas='navbar navbar-expand-md bg-primary navbar-dark shadow'>
+        <nav class='navbar navbar-expand-md bg-primary navbar-dark shadow'>
             <a href="#" class='navbar-brand'>Estoque</a>
             <button class='navbar-toggler' type='Button' data-toggle='collapse' data-target='#collapsibleNavbar'>
 
