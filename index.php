@@ -49,7 +49,21 @@
                                 <div class="form-group">
                                     <label for="">Seu Email</label>
                                     <input type="email" name="email" class='form-control' placeholder='Email'>
-                                    <button type='submit'>Entrar</button>
+                                </div>
+                                <div class="form-group">
+                                    <a href="#" class='float-right'>Esqueceu?</a>
+                                    <label for="">Sua senha</label>
+                                    <input type="password" class='form-control' name="" placeholder='******'>
+                                </div>
+                                <div class='form-group'>
+                                    <div class='checkbox'>
+                                        <label for="">
+                                            <input type="checkbox"> Salvar senha
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class='form-group'>
+                                    <button type='submit' class='btn btn-primary btn-block'>Login</button>
                                 </div>
                             </form>
                         </article>
