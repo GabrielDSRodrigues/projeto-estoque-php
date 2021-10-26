@@ -42,7 +42,7 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-sm-4">
                     <div class='card'>
-                        <article class='card-bady'>
+                        <article class='card-body'>
                             <a href="#" class='float-right btn btn-outline-primary'>Registrar</a>
                             <h4 class='card-title mb-4 mt-1'>Entrar</h4>
                             <form>
