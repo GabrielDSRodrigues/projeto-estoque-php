@@ -35,7 +35,7 @@
   <br><br>
   <div class="container">
     <div class="row d-flex justify-content-center">
-      <div class="col-sm-5">
+      <div class="col-sm-4">
         <div class='card'>
           <article class='card-body'>
             <a href="#" class='float-right btn btn-outline-primary'>Registrar</a>
