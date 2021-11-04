@@ -32,7 +32,7 @@
         <form class="row g-3">
             <div class="col-md-6">
                 <label for="nome" class="form-label">Nome</label>
-                <input type="text" name="nome" id="nome" class="from-control">
+                <input type="text" name="nome" id="nome" class="form-control">
             </div>
             <div class="col-md-6">
                 <label for="sobrenome" class="form-label">Sobrenome</label>
