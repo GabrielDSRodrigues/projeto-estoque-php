@@ -32,7 +32,7 @@
         <form class="row g-3">
             <div class="col-md-6">
                 <label for="nome" class="form-label">Nome</label>
-                <input type="text" name="nome" id="nome" class="from-control">
+                <input type="text" name="nome" id="nome" class="form-control">
             </div>
             <div class="col-md-6">
                 <label for="sobrenome" class="form-label">Sobrenome</label>
@@ -48,12 +48,12 @@
                 <input type="password" name="senha" id="senha" class="form-control" placeholder="********">
                 <br>
             </div>
-            <div class="col-md-6">
+            <div class="col-12">
                 <label for="empresa" class="form-label">Empresa</label>
                 <input type="text" name="empresa" id="empresa" class="form-control" placeholder="Insira o nome de sua empresa">
                 <br>
             </div>
-            <div class="col-md-6">
+            <div class="col-12">
                 <label for="cargo" class="form-label">Cargo</label>
                 <input type="text" name="cargo" id="cargo" class="form-control" placeholder="Insira o seu cargo na empresa">
                 <br><br>
