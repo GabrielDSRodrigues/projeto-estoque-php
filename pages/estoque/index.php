@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estoque - Controle de Estoque</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="../../assets/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../../assets/js/bootstrap.bundle.min.js"></script>
     <style>
         body {
             background-color: #eee;
@@ -76,7 +76,9 @@
             <main class="col ps-md-2 pt-2">
                 <div class="row">
                     <span class="p-1 w-100 mx-2 px-3 py-2 bg-light bg-gradient text-muted">Home</span>
-                    <div class="col w-100 mx-2 mt-2"></div>
+                    <div class="col w-100 mx-2 mt-2">
+                        Área do conteúdo...
+                    </div>
                 </div>
             </main>
         </div>
