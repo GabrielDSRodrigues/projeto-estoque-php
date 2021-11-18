@@ -79,8 +79,32 @@
                                     </div>
                                 </div>
                                 <div class="row">
-
+                                    <div class="mb-3 col-4">
+                                        <label class="form-label" for="quantidade">Quantidade</label>
+                                        <input type="number" name="quantidade" class="form-control" id="quantidade">
+                                    </div>
+                                    <div class="mb-3 col-4">
+                                        <label class="form-label" for="custo">Custo do Item</label>
+                                        <input type="text" name="custo" class="form-control" id="custo">
+                                    </div>
+                                    <div class="mb-3 col-4">
+                                        <label class="form-label" for="preco">Preço de Venda</label>
+                                        <input type="number" name="preco" class="form-control" id="preco">
+                                    </div>
                                 </div>
+                                <div class="mb-3">
+                                    <label for="unidade" class="form-label">Unidade de Medida</label>
+                                    <select name="unidade" id="unidade" class="form-select form-control">
+                                        <option selected>----------------</option>
+                                        <option value="UN">UN</option>
+                                        <option value="KG">KG</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="descricao" class="form-label">Descrição</label>
+                                    <textarea name="descricao" class="form-control" id="descricao" rows="3"></textarea>
+                                </div>
+                                <br>
 								<button type="submit" class="btn btn-primary btn-lg">Cadastrar</button>
 							</form>
 						</div>
