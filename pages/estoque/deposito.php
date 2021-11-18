@@ -58,10 +58,9 @@
 			</div>
 			<main class="col ps-md-2 pt-2">
 				<div class="row">
-					<span class="p-1 w-100 mx-2 px-3 py-2 bg-light bg-gradient text-muted">Home</span>
 					<div class="col w-100 mx-2 mt-2">
+					<span class="p-1 w-100 mx-2 px-3 py-2 bg-light bg-gradient text-muted">Home / Cadastrar Depósito</span>
 						<div class="col w-100 mx-2 mt-2 text-muted">
-							<span class="p-1 w-100 mx-2 px-3 py-2 bg-light bg-gradient text-muted">Home / Cadastrar Depósito</span>
 							<br>
 							<form action="">
 								<div class="mb-3">
