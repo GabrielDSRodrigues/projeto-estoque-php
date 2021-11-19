@@ -58,55 +58,53 @@
 			</div>
 			<main class="col ps-md-2 pt-2">
 				<div class="row">
-					<div class="col w-100 mx-2 mt-2">
-                        <span class="p-1 w-100 mx-2 px-3 py-2 bg-light bg-gradient text-muted">Home / Cadastrar Item</span>
-						<div class="col w-100 mx-2 mt-2 text-muted">
-						    <br>
-							<form action="">
-                                <div class="row">
-                                    <div class="mb-3 col-6">
-                                        <label for="deposito" class="form-label">Depósito</label>
-                                        <select name="deposito" id="deposito" class="form-control form-select">
-                                            <option selected>-----------</option>
-                                            <option value="1">Depósito 1</option>
-                                            <option value="2">Depósito 2</option>
-                                        </select>
-                                    </div>
-                                    <div class="mb-3 col-6">
-                                        <label for="nome" class="form-label">Nome do Item</label>
-                                        <input type="text" name="nome" id="nome" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="mb-3 col-4">
-                                        <label class="form-label" for="quantidade">Quantidade</label>
-                                        <input type="number" name="quantidade" class="form-control" id="quantidade">
-                                    </div>
-                                    <div class="mb-3 col-4">
-                                        <label class="form-label" for="custo">Custo do Item</label>
-                                        <input type="text" name="custo" class="form-control" id="custo">
-                                    </div>
-                                    <div class="mb-3 col-4">
-                                        <label class="form-label" for="preco">Preço de Venda</label>
-                                        <input type="number" name="preco" class="form-control" id="preco">
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="unidade" class="form-label">Unidade de Medida</label>
-                                    <select name="unidade" id="unidade" class="form-select form-control">
-                                        <option selected>----------------</option>
-                                        <option value="UN">UN</option>
-                                        <option value="KG">KG</option>
+					<span class="p-1 w-100 mx-2 px-3 py-2 bg-light bg-gradient text-muted">Home / Cadastrar Item</span>
+					<div class="col w-100 mx-2 mt-2 text-muted">
+						<br>
+						<form action="">
+                            <div class="row">
+                                <div class="mb-3 col-6">
+                                    <label for="deposito" class="form-label">Depósito</label>
+                                    <select name="deposito" id="deposito" class="form-control form-select">
+                                        <option selected>-----------</option>
+                                        <option value="1">Depósito 1</option>
+                                        <option value="2">Depósito 2</option>
                                     </select>
                                 </div>
-                                <div class="mb-3">
-                                    <label for="descricao" class="form-label">Descrição</label>
-                                    <textarea name="descricao" class="form-control" id="descricao" rows="3"></textarea>
+                                <div class="mb-3 col-6">
+                                    <label for="nome" class="form-label">Nome do Item</label>
+                                    <input type="text" name="nome" id="nome" class="form-control">
                                 </div>
-                                <br>
-								<button type="submit" class="btn btn-primary btn-lg">Cadastrar</button>
-							</form>
-						</div>
+                            </div>
+                            <div class="row">
+                                <div class="mb-3 col-4">
+                                    <label class="form-label" for="quantidade">Quantidade</label>
+                                    <input type="number" name="quantidade" class="form-control" id="quantidade">
+                                </div>
+                                <div class="mb-3 col-4">
+                                    <label class="form-label" for="custo">Custo do Item</label>
+                                    <input type="text" name="custo" class="form-control" id="custo">
+                                </div>
+                                <div class="mb-3 col-4">
+                                    <label class="form-label" for="preco">Preço de Venda</label>
+                                    <input type="number" name="preco" class="form-control" id="preco">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="unidade" class="form-label">Unidade de Medida</label>
+                                <select name="unidade" id="unidade" class="form-select form-control">
+                                    <option selected>----------------</option>
+                                    <option value="UN">UN</option>
+                                    <option value="KG">KG</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="descricao" class="form-label">Descrição</label>
+                                <textarea name="descricao" class="form-control" id="descricao" rows="3"></textarea>
+                            </div>
+                            <br>
+							<button type="submit" class="btn btn-primary btn-lg">Cadastrar</button>
+						</form>
 					</div>
 				</div>
 			</main>
