@@ -58,34 +58,32 @@
 			</div>
 			<main class="col ps-md-2 pt-2">
 				<div class="row">
-					<div class="col w-100 mx-2 mt-2">
-					<span class="p-1 w-100 mx-2 px-3 py-2 bg-light bg-gradient text-muted">Home / Cadastrar Depósito</span>
-						<div class="col w-100 mx-2 mt-2 text-muted">
-							<br>
-							<form action="">
-								<div class="mb-3">
-									<label for="nome" class="form-label">Nome do Depósito</label>
-									<input type="text" name="nome" class="form-control" id="nome">
-								</div>
-								<div class="mb-3">
-									<label for="responsavel" class="form-label">Responsável</label>
-									<input type="text" name="responsavel" class="form-control" id="responsavel">
-								</div>
-								<div class="mb-3">
-									<label for="status" class="form-label">Status</label>
-									<select id="status" class="form-control" name="status">
-										<option value="" selected>--------</option>
-										<option value="ativo">Ativo</option>
-										<option value="Inativo">Inativo</option>
-									</select>
-								</div>
-								<div class="mb-3">
-									<label for="descricao" class="form-label">Descrição</label>
-									<textarea name="descricao" id="descricao" rows="3" class="form-control"></textarea>									
-								</div>
-								<button type="submit" class="btn btn-primary btn-lg">Cadastrar</button>
-							</form>
-						</div>
+				<span class="p-1 w-100 mx-2 px-3 py-2 bg-light bg-gradient text-muted">Home / Cadastrar Depósito</span>
+					<div class="col w-100 mx-2 mt-2 text-muted">
+						<br>
+						<form action="">
+							<div class="mb-3">
+								<label for="nome" class="form-label">Nome do Depósito</label>
+								<input type="text" name="nome" class="form-control" id="nome">
+							</div>
+							<div class="mb-3">
+								<label for="responsavel" class="form-label">Responsável</label>
+								<input type="text" name="responsavel" class="form-control" id="responsavel">
+							</div>
+							<div class="mb-3">
+								<label for="status" class="form-label">Status</label>
+								<select id="status" class="form-control" name="status">
+									<option value="" selected>--------</option>
+									<option value="ativo">Ativo</option>
+									<option value="Inativo">Inativo</option>
+								</select>
+							</div>
+							<div class="mb-3">
+								<label for="descricao" class="form-label">Descrição</label>
+								<textarea name="descricao" id="descricao" rows="3" class="form-control"></textarea>									
+							</div>
+							<button type="submit" class="btn btn-primary btn-lg">Cadastrar</button>
+						</form>
 					</div>
 				</div>
 			</main>
